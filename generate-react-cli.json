@@ -1,0 +1,15 @@
+{
+  "component": {
+    "path": "",
+    "css": {
+      "preprocessor": "css",
+      "module": false
+    },
+    "test": {
+      "library": "Testing Library",
+      "withTest": false
+    },
+    "withStory": false,
+    "withLazy": false
+  }
+}

@@ -1,0 +1,90 @@
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #5a5a5a;
+}
+
+.elementos {
+  position: absolute;
+  padding: 30px 5px 5px 135px;
+}
+
+.carousel-item {
+  height: 32rem;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+
+.servicios {
+  margin-top: 50px;
+}
+
+#slider > a.carousel-control-next > span.carousel-control-next-icon, #slider > a.carousel-control-prev > span.carousel-control-prev-icon {
+  margin-top: -100px;
+}
+
+.featurette-divider {
+  margin: 5rem 0; 
+}
+
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+
+
+/* RESPONSIVE CSS */
+
+@media (min-width: 300px) { 
+
+  .featurette-heading {
+    font-size: 2vw;
+  }
+
+  .carousel-item > img {
+    height: initial;
+  }
+
+  .elementos {
+    display: none;
+  }
+
+}
+
+@media (min-width: 768px) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+
+  .carousel-item > img {
+    height: initial;
+  }
+
+  .elementos {
+    display: block;
+  }
+
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+  
+}
