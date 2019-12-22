@@ -14,7 +14,7 @@ class Jumbotron extends React.Component {
                     <br/>
                     Solo de esta manera se formarán profesionales que cambien sus vidas y tengan un mejor futuro.
                 </p>
-                <p><a className="btn btn-primary btn-lg" href="https://nubecolectiva.com" target="_blank" role="button">Visitar Web</a></p>
+                <p><a className="btn btn-primary btn-lg" href="https://nubecolectiva.com" rel="noopener noreferrer" target="_blank" role="button">Visitar Web</a></p>
             </div>
         </div>
 
